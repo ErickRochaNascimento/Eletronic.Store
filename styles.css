@@ -60,6 +60,12 @@ header nav ul li:hover::after {
     width: 100%;
 }
 
+.menu-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block; 
+}
+
 .container {
     height: 100vh;
     position: relative;
@@ -349,3 +355,4 @@ header nav ul li:hover::after {
     top: 20%;
     left: 70%;
 }
+
