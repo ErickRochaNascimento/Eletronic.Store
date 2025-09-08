@@ -361,7 +361,7 @@ header nav ul li:hover::after {
 .container-contatos {
     height: 100vh;
     position: relative;
-    background: linear-gradient(135deg, #0f0f1e 0%, #1f1f3a 100%);
+    background: linear-gradient(2000deg, #0f0f1e 0%, #272764 100%);
     overflow: hidden;
 }
 
@@ -371,36 +371,37 @@ header nav ul li:hover::after {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(0, 247, 255, 0.2) 0%, rgba(15, 15, 30, 0) 70%);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    filter: blur(50%);
     z-index: 1;
-    animation: pulse 4s infinite;
 }
 
 
-.redes-item {
+.redes .redes-list {
     position: absolute;
     inset: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.redes-item .redes-list{
     display: flex;
-    gap: 48px;
     flex-direction: column;
+    gap: 48px;
 }
 
-.redes .redes-list .redes-item {
-    cursor: pointer;
-    position: relative;
-    padding: 5px 0;
+.redes-item a{
+    text-decoration: none;
+    color: #00f7ff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 
+.redes-logo {
+    width: 35px; /* Tamanho da imagem */
+    height: auto;
 }
 
 .redes .redes-list .redes-item::after {
@@ -414,100 +415,6 @@ header nav ul li:hover::after {
     transition: width 0.2s ease;
 }
 
-header nav ul li:hover::after {
+.redes .redes-list .redes-item:hover::after {
     width: 100%;
-}
-
-
-
-.redes-logo {
-    width: 25%;
-    height: 25;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-}
-
-
-
-
-.redes-logo  {
-    max-width: 80%;
-    max-height: 60%;
-    filter: drop-shadow(0 0 30px rgba(0, 247, 255, 0.3));
-
-}
-
-.active .product-img img {
-    transform: translateX(0);
-    opacity: 1;
-}
-
-.content {
-    width: 55%;
-    padding-right: 80px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    z-index: 2;
-    flex-direction: column;
-}
-
-.product-tag {
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #00f7ff;
-    font-weight: 600;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    transform: translateX(200px);
-    opacity: 0;
-    transition: transform 0.6s ease, opacity 0.6s ease;
-    transition-delay: 0.5s;
-
-}
-
-.active .product-tag {
-    transform: translateX(0);
-    opacity: 1;
-}
-
-.product-name {
-    font-size: 4.5rem;
-    font-family: 'Orbitron', sans-serif;
-    line-height: 1.1;
-    margin-bottom: 20px;
-
-    transform: translateX(200px);
-    opacity: 0;
-    transition: transform 0.6s ease, opacity 0.6s ease;
-    transition-delay: 0.5s;
-
-}
-
-.active .product-name {
-    transform: translateX(0);
-    opacity: 1;
-}
-
-
-.description {
-    font-size: 1.1rem;
-    color: #b8b8d0;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    max-width: 600px;
-
-    transform: translateX(200px);
-    opacity: 0;
-    transition: transform 0.6s ease, opacity 0.6s ease;
-    transition-delay: 0.5s;
-
-}
-
-.active .description {
-    transform: translateX(0);
-    opacity: 1;
 }
