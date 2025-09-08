@@ -371,7 +371,6 @@ header nav ul li:hover::after {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    position: absolute;
     top: 50%;
     left: 50%;
     z-index: 1;
@@ -381,11 +380,13 @@ header nav ul li:hover::after {
 .redes .redes-list {
     position: absolute;
     inset: 0;
-    justify-content: center;
-    align-items: center;
+    padding-left: 5%;
+    align-items: left;
+    padding-top: 35%;
     display: flex;
-    flex-direction: column;
-    gap: 48px;
+    flex-direction: row;
+    gap: 40px;
+    position: absolute;
 }
 
 .redes-item a{
@@ -394,27 +395,24 @@ header nav ul li:hover::after {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    gap: 1px;
-    font-size: 1.5rem;
+    gap: 6px;
     font-weight: 600;
 }
 
-.redes-logo {
-    width: 35px; /* Tamanho da imagem */
+.redes-item img{
+    width: 35px; 
     height: auto;
 }
 
-.redes .redes-list .redes-item::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: #00f7ff;
-    transition: width 0.2s ease;
+.sobre{
+    padding-top: 15%;
+    padding-left: 5%;
+    color: #b8b8d0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 700px;
 }
 
-.redes .redes-list .redes-item:hover::after {
-    width: 100%;
-}
+
+
