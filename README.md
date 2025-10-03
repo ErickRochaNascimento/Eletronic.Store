@@ -39,3 +39,8 @@ A funcionalidade central é um **carrossel de produtos** em tela cheia com trans
 ## ▶️ Como Visualizar
 
 https://erickrochanascimento.github.io/Eletronic.Store/
+
+## 👤 Autor
+
+- **Erick Rocha Luciano Nascimento**
+- **https://www.linkedin.com/in/erickrochanascimento/**
