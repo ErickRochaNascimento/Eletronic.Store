@@ -44,3 +44,14 @@ https://erickrochanascimento.github.io/Eletronic.Store/
 
 - **Erick Rocha Luciano Nascimento**
 - **https://www.linkedin.com/in/erickrochanascimento/**
+
+## ▶️ Como Rodar Localmente
+
+Para testar o projeto em sua máquina:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/ErickRochaNascimento/Eletronic.Store.git
+    cd Eletronic.Store
+    ```
+2.  **Abra o arquivo `index.html`** no seu navegador.
