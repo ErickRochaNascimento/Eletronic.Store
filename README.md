@@ -40,18 +40,11 @@ A funcionalidade central é um **carrossel de produtos** em tela cheia com trans
 
 https://erickrochanascimento.github.io/Eletronic.Store/
 
-## 👤 Autor
+---
 
-- **Erick Rocha Luciano Nascimento**
-- **https://www.linkedin.com/in/erickrochanascimento/**
+## 🧑‍💻 Autor
 
-## ▶️ Como Rodar Localmente
+**Erick Rocha Nascimento**  
+📘 Desenvolvido como projeto prático de estudo de **APIs e JavaScript**.  
+🔗 [LinkedIn](https://www.linkedin.com/in/erickrochanascimento) | [GitHub](https://github.com/ErickRochaNascimento)
 
-Para testar o projeto em sua máquina:
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/ErickRochaNascimento/Eletronic.Store.git
-    cd Eletronic.Store
-    ```
-2.  **Abra o arquivo `index.html`** no seu navegador.
